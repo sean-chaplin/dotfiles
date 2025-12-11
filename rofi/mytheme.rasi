@@ -5,18 +5,19 @@
 }
 
 window {
-  padding: 40px;
+  padding: 20px;
   width: 700px;
   height: 400px;
   border: 1px;
-  border-radius: 30px;
+  border-radius: 10px;
   border-color: #101010;
 }
 
 entry {
-  background-color: #101010;
   padding: 10px 15px;
-  border-radius: 15px;
+  border-radius: 5px;
+  border: 1px;
+  border-color: #FFFFFF;
 }
 
 listview {
@@ -29,7 +30,7 @@ element-text selected{
 }
 
 element-text {
-  text-color: #101010;
+  text-color: #606060;
 }
 
 prompt {
