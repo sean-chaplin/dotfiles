@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+options=" Shutdown\n Reboot\n Sleep\n Logout"
+
+choice=$(echo -e "$options" | rofi -dmenu -p "Power Menu" -theme ~/.config/rofi/powermenu.rasi)
+
+case "$choice" in
+  " Shutdown") systemctl poweroff ;;
+  " Reboot") systemctl reboot ;;
+  " Sleep") systemctl suspend ;;
+  " Logout") loginctl terminate-session "$XDG_SESSION_ID" ;;
+esac

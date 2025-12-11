@@ -1,0 +1,39 @@
+{
+  "layer": "bottom",
+  "height": 40,
+  "modules-left": ["custom/power"],
+  "modules-center": ["clock"],
+  "modules-right": ["custom/audio","custom/network"],
+  "custom/power": {
+    "format" : "⏻",
+    "on-click": "~/.config/waybar/scripts/powermenu",
+    "tooltip": false
+  },
+  "mpris": {
+    "player": "spotify",
+    "format": "{player_icon} {title} - {artist}",
+    "format-paused": "{status_icon} {title} - {artist}",
+    "player-icons": {
+      "default": "▶",
+      "spotify": "󰓇"
+    },
+    "status-icons": {
+      "paused": "⏸"
+    }
+  },
+  "clock": {
+    "format": "{:%I:%M %p}",
+    "format-alt": "{:%A %d %B %Y}",
+    "tooltip": false
+  },
+  "custom/network": {
+    "format": "󰀂",
+    "on-click": "hyprctl dispatch exec '[float] alacritty -e impala'",
+    "tooltip": false
+  },
+  "custom/audio": {
+    "format": "",
+    "on-click": "hyprctl dispatch exec '[float] alacritty -e wiremix'",
+    "tooltip": false
+  }
+}

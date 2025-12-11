@@ -1,0 +1,31 @@
+window#waybar {
+  background: #000000;
+  color: #ffffff;
+}
+
+window#waybar,
+.modules-left,
+.modules-center,
+.modules-right {
+  border-bottom: 1px solid #101010;
+}
+
+#custom-power,
+.modules-right {
+  background: #000A30;
+}
+
+#custom-power {
+  font-size: 30px;
+  min-width: 42px;
+}
+
+#custom-audio {
+  padding-left: 18px;
+  padding-right: 10px;
+}
+
+#custom-network {
+  padding-right: 18px;
+  padding-left: 10px;
+}
