@@ -1,3 +1,8 @@
+* {
+  font-family: "Noto Sans";
+  font-size: 15px;
+}
+
 window#waybar {
   background: #000000;
   color: #ffffff;
