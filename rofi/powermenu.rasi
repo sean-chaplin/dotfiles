@@ -1,5 +1,9 @@
 @import "./mytheme.rasi"
 
+* {
+  font: "ProFont IIx Nerd Font Mono 12";
+}
+
 window {
   location: north west;
   x-offset: 10px;

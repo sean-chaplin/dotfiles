@@ -1,7 +1,7 @@
 * {
   background-color: #000000;
   text-color: #ffffff;
-  font: "ProFont IIx Nerd Font Mono 12";
+  font: "ProFont IIx Nerd Font Mono 13";
 }
 
 window {
