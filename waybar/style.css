@@ -12,7 +12,7 @@ window#waybar,
 .modules-left,
 .modules-center,
 .modules-right {
-  border-bottom: 1px solid #101010;
+  border-bottom: 1px solid #202020;
 }
 
 #custom-power,
