@@ -1,6 +1,6 @@
 * {
-  font-family: "Noto Sans";
-  font-size: 15px;
+  font-family: "ProFont IIx Nerd Font Mono";
+  font-size: 13px;
 }
 
 window#waybar {
@@ -21,8 +21,13 @@ window#waybar,
 }
 
 #custom-power {
-  font-size: 30px;
   min-width: 42px;
+}
+
+#custom-power,
+#custom-audio,
+#custom-network {
+  font-size: 18px;
 }
 
 #custom-audio {

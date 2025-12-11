@@ -1,7 +1,7 @@
 * {
   background-color: #000000;
   text-color: #ffffff;
-  font: "Noto Sans 14";
+  font: "ProFont IIx Nerd Font Mono 12";
 }
 
 window {
@@ -16,7 +16,7 @@ window {
 entry {
   padding: 10px 15px;
   border-radius: 5px;
-  border: 1px;
+  border: 2px;
   border-color: #FFFFFF;
 }
 
